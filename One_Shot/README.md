@@ -1,3 +1,5 @@
+# Temporizador One Shot
+
 # Descrição
 
 Este projeto implementa um sistema de LEDs acionados a partir do clique de um botão (pushbutton). O comportamento dos LEDs segue uma sequência temporizada: inicialmente todos os LEDs acesos, depois dois LEDs e, por último, apenas um LED aceso. Esse processo ocorre com a utilização de um temporizador de um disparo (One Shot) a cada 3 segundos.
