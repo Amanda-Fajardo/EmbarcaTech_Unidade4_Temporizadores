@@ -15,23 +15,22 @@ Este repositório contém dois projetos desenvolvidos utilizando o Pico SDK para
 # Compilação e Execução
 
 1. Clone o repositório:
+```
+git clone <https://github.com/Amanda-Fajardo/EmbarcaTech_Unidade4_Temporizadores>
+```
 
-bash
-Copiar
-git clone <URL_DO_REPOSITORIO>
-cd <diretorio_do_repositorio>
-
+2. Tenha o VSCode instalado e configurado.
+   
+3. Tenha a extensão do Raspberry Pi Pico instalada e configurada.
+   
 2. Compile o código utilizando o Pico SDK:
 
-```bash
+```
 mkdir build
 cd build
 cmake ..
 make
 ```
-3. Carregue o firmware no seu microcontrolador Raspberry Pi Pico:
-
-```bash
-picotool load <caminho_do_firmware.uf2>
-```
-4. Execute o programa e observe a funcionalidade dos LEDs conforme descrito.
+3. Carregue o firmware no seu microcontrolador Raspberry Pi Pico.
+   
+4. Caso não possua a placa para testar, é possível simular o programa com a extensão `Wokwi Simulator` no VSCode. Basta compilar e clicar no arquivo `diagram.json`.
