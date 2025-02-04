@@ -23,7 +23,7 @@ git clone <https://github.com/Amanda-Fajardo/EmbarcaTech_Unidade4_Temporizadores
    
 3. Tenha a extensão do Raspberry Pi Pico instalada e configurada.
    
-2. Compile o código utilizando o Pico SDK:
+2. Compile o programa utilizando o CMake:
 
 ```
 mkdir build
